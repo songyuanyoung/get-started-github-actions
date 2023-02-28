@@ -35,5 +35,5 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo
-          echo java -version
-          echo git --version
+          java -version
+          git --version
