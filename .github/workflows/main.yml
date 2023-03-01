@@ -37,3 +37,19 @@ jobs:
           echo
           java -version
           git --version
+          echo
+          echo Android SDK Root
+          echo $ANDROID_SDK_ROOT
+          echo
+          echo Runner workspace
+          echo $RUNER_WORKSPACE
+          echo 
+          echo github workspace
+          echo $GITHUB_WORKSPACE
+          echo
+          echo who am I
+          whoami
+          echo df
+          df
+          echo env
+          env
